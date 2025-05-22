@@ -7,8 +7,8 @@ This project is a **content-based movie recommendation system** using **NLP tech
 ```
 ├── imdb_2024_movies.csv          # Scraped movie data (Movie Name, Storyline)
 ├── scraper.py                    # Selenium-based web scraping script
-├── preprocess.py                 # NLP + recommendation logic (TF-IDF + Cosine Similarity)
-├── app.py                        # Streamlit frontend application
+├── nlp_recommend.py              # NLP + recommendation logic (TF-IDF + Cosine Similarity)
+├── streamlit.py                        # Streamlit frontend application
 ├── README.md                     # Project overview and instructions
 ├── requirements.txt              # All required Python dependencies
 └── project_documentation.pdf     # Complete project report
