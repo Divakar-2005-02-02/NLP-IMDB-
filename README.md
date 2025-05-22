@@ -5,7 +5,7 @@ This project is a **content-based movie recommendation system** using **NLP tech
 ## 📁 Project Structure
 
 ```
-├── extracted_2024.csv            # Scraped movie data (Movie Name, Storyline)
+├── scraped_2024.csv            # Scraped movie data (Movie Name, Storyline)
 ├── scrap.py                      # Selenium-based web scraping script
 ├── nlp_recommend.py              # NLP + recommendation logic (TF-IDF + Cosine Similarity)
 ├── streamlit.py                  # Streamlit frontend application
@@ -62,7 +62,7 @@ Make sure you have ChromeDriver installed and update its path in `scrap.py`.
 python scrap.py
 ```
 
-This generates `extracted_2024.csv`.
+This generates `scraped_2024.csv`.
 
 ### Step 2: Launch the Streamlit App
 
