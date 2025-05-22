@@ -5,10 +5,10 @@ This project is a **content-based movie recommendation system** using **NLP tech
 ## 📁 Project Structure
 
 ```
-├── imdb_2024_movies.csv          # Scraped movie data (Movie Name, Storyline)
-├── scraper.py                    # Selenium-based web scraping script
+├── extracted_2024.csv            # Scraped movie data (Movie Name, Storyline)
+├── scrap.py                      # Selenium-based web scraping script
 ├── nlp_recommend.py              # NLP + recommendation logic (TF-IDF + Cosine Similarity)
-├── streamlit.py                        # Streamlit frontend application
+├── streamlit.py                  # Streamlit frontend application
 ├── README.md                     # Project overview and instructions
 ├── requirements.txt              # All required Python dependencies
 └── project_documentation.pdf     # Complete project report
@@ -56,18 +56,18 @@ nltk.download('punkt')
 
 ### Step 1: Scrape IMDb Data
 
-Make sure you have ChromeDriver installed and update its path in `scraper.py`.
+Make sure you have ChromeDriver installed and update its path in `scrap.py`.
 
 ```bash
-python scraper.py
+python scrap.py
 ```
 
-This generates `imdb_2024_movies.csv`.
+This generates `extracted_2024.csv`.
 
 ### Step 2: Launch the Streamlit App
 
 ```bash
-streamlit run app.py
+streamlit run streamlit.py
 ```
 
 ### Step 3: Enter Your Own Movie Storyline
